@@ -2046,8 +2046,8 @@ module Record_with_special_types = struct
          then bnds__489_
          else (
            let arg__501_ = (sexp_of_array sexp_of_int) c__499_ in
-           let bnd__500_ = Sexplib0.Sexp.List [ Sexplib0.Sexp.Atom "c"; arg__501_ ] in
-           bnd__500_ :: bnds__489_)
+           let bnd__510_ = Sexplib0.Sexp.List [ Sexplib0.Sexp.Atom "c"; arg__501_ ] in
+           bnd__510_ :: bnds__489_)
        in
        let bnds__489_ =
          if match b__495_ with
